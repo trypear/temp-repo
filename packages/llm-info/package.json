@@ -9,8 +9,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc"
   },
-  "author": "Nate Sesti and Ty Dunn",
-  "license": "Apache-2.0",
+  "author": "PearAI",  "license": "EE",
   "devDependencies": {
     "typescript": "^5.5.2"
   },
