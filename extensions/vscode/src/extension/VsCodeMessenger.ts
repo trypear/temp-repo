@@ -97,7 +97,7 @@ export class VsCodeMessenger {
     });
     this.onWebview("toggleDevTools", (msg) => {
       vscode.commands.executeCommand("workbench.action.toggleDevTools");
-      vscode.commands.executeCommand("continue.viewLogs");
+      vscode.commands.executeCommand("pearai.viewLogs");
     });
     this.onWebview("reloadWindow", (msg) => {
       vscode.commands.executeCommand("workbench.action.reloadWindow");
@@ -194,7 +194,7 @@ export class VsCodeMessenger {
     this.onWebview("showTutorial", async (msg) => {
       const tutorialPath = path.join(
         getExtensionUri().fsPath,
-        "continue_tutorial.py",
+        "pearai_tutorial.py",
       );
       // Ensure keyboard shortcuts match OS
       if (process.platform !== "darwin") {

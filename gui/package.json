@@ -2,8 +2,8 @@
   "name": "gui",
   "private": true,
   "type": "module",
-  "author": "Continue Dev, Inc",
-  "license": "Apache-2.0",
+  "author": "PearAI",
+  "license": "EE",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
